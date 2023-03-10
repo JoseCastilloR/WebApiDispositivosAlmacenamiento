@@ -1,12 +1,12 @@
 ﻿namespace WebApiDispositivosAlmacenamiento.Entidades
 {
-    public class DispositivoAlmacenamiento
+    public class Marca
     {
         public int Id { get; set; }
 
-        public string TipoDispositivo { get; set; }
+        public string NombreMarca { get; set; }
 
-        public string Capacidad { get; set; }
+        public string Servicios { get; set; }
 
         public List<Modelo> Modelos { get; set; }
     }

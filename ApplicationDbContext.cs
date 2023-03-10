@@ -11,5 +11,7 @@ namespace WebApiDispositivosAlmacenamiento
         }
 
         public DbSet<DispositivoAlmacenamiento> DispositivosAlmacenamiento { get; set; }
+        public DbSet<Modelo> Modelos { get; set; }
+        public DbSet<Marca> Marcas { get; set; }
     }
 }
